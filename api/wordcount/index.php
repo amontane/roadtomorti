@@ -6,6 +6,6 @@ $wordCount = countWords();
 logWords($wordCount);
 
 header('Content-Type: application/json;charset=utf-8');
-print('{ "num_words": ' . $wordCount . ' }')
+print('{ "num_words": ' . $wordCount . ' }');
 
 ?>
