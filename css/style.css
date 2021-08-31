@@ -1,0 +1,89 @@
+body {
+	font-family: Arial;	
+	background-color: #dddddd;
+	margin: 0;
+	color: #444444;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: white;
+	min-height: 100%;
+}
+
+#mainTitle {
+	font-size: 2.8em;
+	text-align: center;
+	font-weight: bold;
+	padding: 30px;
+}
+
+#totalCount {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#totalCount .label {
+	font-size: 1.8em;
+}
+
+#totalCount #numwords {
+	font-size: 2.1em;
+	font-weight: bold;
+}
+
+.week {
+	text-align: center;
+	border: 3px solid #444444;
+	border-radius: 8px;
+	margin: 0 0 30px;
+}
+
+.week .weekTitle {
+	font-size: 1.5em;
+	background-color: #444444;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.week .weekContainer {
+	padding: 10px;
+}
+
+.week .weekContainer>div {
+	display: inline-block;
+	padding: 8px;
+	margin: 5px;
+	border-radius: 4px;
+}
+
+.week .weekContainer .win {
+	background-color: #ddffdd;
+}
+
+.week .weekContainer .fail {
+	background-color: #ffdddd;
+}
+
+.week .weekContainer .ongoing {
+	background-color: #ffffdd;
+	border: 1px solid #aaaa99;
+}
+
+.week .weekContainer div .day {
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.week .weekContainer div .words {
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.6em;
+}
+
