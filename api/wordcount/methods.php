@@ -8,7 +8,7 @@ require __DIR__ . '/../credentials.php';
  */
 function getClient() {
     $client = new Google_Client();
-    $client->setApplicationName('Google Drive API PHP Quickstart');
+    $client->setApplicationName('Road to mortimer');
     $client->setScopes(Google_Service_Drive::DRIVE_READONLY);
     $client->setAuthConfig('../credentials.json');
     $client->setAccessType('offline');
