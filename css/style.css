@@ -34,6 +34,18 @@ body {
 	font-weight: bold;
 }
 
+#currentWeekTitle .fail {
+	color: #ffff80;
+}
+
+#previousWeekTitle .fail {
+	color: #ff8080;
+}
+
+.weekTitle .win {
+	color: #80ff80;
+}
+
 .week {
 	text-align: center;
 	border: 3px solid #444444;
